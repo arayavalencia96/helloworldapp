@@ -1,0 +1,28 @@
+# Build files y binarios
+bin/
+obj/
+out/
+*.dll
+*.exe
+*.pdb
+*.log
+*.so
+*.db
+
+# Archivos de configuración de usuario
+.vscode/
+*.user
+*.suo
+*.cache
+*.csproj.user
+*.vs
+
+# Dependencias y paquetes
+packages/
+node_modules/
+wwwroot/lib/
+
+# Docker y contenedores
+docker-compose.override.yml
+docker-compose.*
+Docker
